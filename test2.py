@@ -11,7 +11,7 @@ from ultralytics.yolo.utils.checks import check_imgsz
 from ultralytics.yolo.utils.plotting import Annotator, colors, save_one_box
 
 
-RAPIDAPI_KEY = "7f14710da7msh6b5def85deee5c9p124d23jsn1ca412804156"
+RAPIDAPI_KEY = "YOUR_API_KEY"
 class DetectionPredictor(BasePredictor):
 
     def get_annotator(self, img):
